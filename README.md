@@ -10,11 +10,11 @@ ___
 - Run Docker container using: --rm --name detector -p 5000:5000 web-detector
 ___
 ## Source code
-- model/Detect.py contains functions for processing the results obtained from the model.
-- tamplates contains the code responsible for the appearance of the home page.
-- Dockerfile contains instructions for starting the application.
-- Uno.ipynb contains code describing the learning process of the neural network.
-- main.py contains the logic of the site.
+- [model/Detect.py](https://github.com/showpicep/UnoFlask/blob/main/model/Detect.py) contains functions for processing the results obtained from the model.
+- [tamplates](https://github.com/showpicep/UnoFlask/tree/main/templates) contains the code responsible for the appearance of the home page.
+- [Dockerfile](https://github.com/showpicep/UnoFlask/blob/main/Dockerfile) contains instructions for starting the application.
+- [Uno.ipynb](https://github.com/showpicep/UnoFlask/blob/main/Uno.ipynb) contains code describing the learning process of the neural network.
+- [main.py](https://github.com/showpicep/UnoFlask/blob/main/main.py) contains the logic of the site.
 ___
 ## Example of interaction with the site.
 1. After starting Docker, go to http://localhost:5000.
